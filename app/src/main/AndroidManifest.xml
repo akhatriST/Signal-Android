@@ -231,8 +231,11 @@
         </intent-filter>
     </activity>
 
+    <activity android:name=".SplashActivity"
+              android:theme="@style/SplashTheme"/>
+
     <activity-alias android:name=".RoutingActivity"
-                    android:targetActivity=".MainActivity"
+                    android:targetActivity=".SplashActivity"
                     android:exported="true">
 
         <intent-filter>
