@@ -516,6 +516,7 @@ dependencies {
         exclude group: 'org.freemarker'
     }
     implementation libs.dnsjava
+    implementation libs.app.intro
 
     flipperImplementation libs.facebook.flipper
     flipperImplementation libs.facebook.soloader

@@ -231,6 +231,12 @@
         </intent-filter>
     </activity>
 
+    <activity android:name=".onboarding.OnBoardingActivity"
+        android:theme="@style/Theme.Signal.DayNight.NoActionBar"/>
+
+    <activity android:name=".onboarding.OnBoardingMainMenuActivity"
+        android:theme="@style/Theme.Signal.DayNight.NoActionBar"/>
+
     <activity android:name=".SplashActivity"
               android:theme="@style/SplashTheme"/>
 
