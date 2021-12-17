@@ -53,8 +53,6 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
     handleSignalMeIntent(getIntent());
 
     CachedInflater.from(this).clear();
-
-    startActivity(new Intent(this, OnBoardingActivity.class));
   }
 
   @Override
