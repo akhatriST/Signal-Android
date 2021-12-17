@@ -24,10 +24,6 @@ class OnBoardingMainMenuActivity : AppCompatActivity() {
     setImmersiveMode()
   }
 
-  override fun onBackPressed() {
-//    super.onBackPressed()
-  }
-
   fun setImmersiveMode() {
     window.decorView.systemUiVisibility = (
       View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY

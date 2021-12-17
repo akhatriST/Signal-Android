@@ -45,10 +45,6 @@ class OnBoardingActivity : AppIntroBase() {
     )
   }
 
-  override fun onBackPressed() {
-//    super.onBackPressed()
-  }
-
   override fun onDonePressed(currentFragment: Fragment?) {
     super.onDonePressed(currentFragment)
     // Decide what to do when the user clicks on "Done"
