@@ -49,6 +49,9 @@ class OnBoardingActivity : AppIntroBase() {
     super.onDonePressed(currentFragment)
     // Decide what to do when the user clicks on "Done"
     finish()
-    startActivity(Intent(this, OnBoardingMainMenuActivity::class.java))
+
+    val onboardingMainMenu = Intent(this, OnBoardingMainMenuActivity::class.java)
+    onboardingMainMenu.putExtra("next_intent", intent)
+    startActivity(onboardingMainMenu)
   }
 }

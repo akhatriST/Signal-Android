@@ -5,8 +5,8 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="false"
-    android:theme="@style/AppIntroStyle">
+    android:background="@color/white"
+    android:fitsSystemWindows="false">
 
     <com.github.appintro.internal.AppIntroViewPager
         android:id="@+id/view_pager"
@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/indicator_container"  />
+        app:layout_constraintTop_toTopOf="@+id/indicator_container" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/back"
@@ -62,7 +62,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/indicator_container"  />
+        app:layout_constraintTop_toTopOf="@+id/indicator_container" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/next"
